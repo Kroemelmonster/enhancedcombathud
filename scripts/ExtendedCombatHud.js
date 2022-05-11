@@ -155,15 +155,7 @@ class CombatHud {
         {name: ECHItems.Hide.name, img: ECHItems.Hide.img},
         {name: ECHItems.Disengage.name, img: ECHItems.Disengage.img},
         {name: ECHItems.Ready.name, img: ECHItems.Ready.img}
-      ],
-      specialItemsNames: {
-        disengage: game.i18n.localize("enhancedcombathud.items.disengage.name"),
-        hide: game.i18n.localize("enhancedcombathud.items.hide.name"),
-        shove: game.i18n.localize("enhancedcombathud.items.shove.name"),
-        dash: game.i18n.localize("enhancedcombathud.items.dash.name"),
-        dodge: game.i18n.localize("enhancedcombathud.items.dodge.name"),
-        ready: game.i18n.localize("enhancedcombathud.items.ready.name"),
-      },
+      ]
     };
     this.resources = {
       action: true,
@@ -463,7 +455,7 @@ class CombatHudCanvasElement extends BasePlaceableHUD {
   static get defaultOptions() {
     const options = super.defaultOptions;
     options.template =
-      "modules/enhancedcombathud/templates/extendedCombatHud.html";
+      "modules/enhancedcombathud-kroemel-fork/templates/extendedCombatHud.html";
     options.id = "enhancedcombathud";
     options.dragDrop = [{ dragSelector: null, dropSelector: null }];
     return options;
@@ -616,7 +608,7 @@ class CombatHudCanvasElement extends BasePlaceableHUD {
     if (theme.theme == "custom") {
       setThemeColors(theme.colors);
     } else {
-      fetch(`./modules/enhancedcombathud/scripts/themes/${theme.theme}.json`)
+      fetch(`./modules/enhancedcombathud-kroemel-fork/scripts/themes/${theme.theme}.json`)
         .then((response) => response.json())
         .then((colors) => {
           setThemeColors(colors);

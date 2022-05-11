@@ -4,7 +4,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.disengage.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.disengage.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/journey.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/journey.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.disengage.desc"),
@@ -70,7 +70,7 @@ Hooks.once("ready",()=>{
           "startTime": null,
           "turns": 1
         },
-        "icon": "modules/enhancedcombathud/icons/journey.svg",
+        "icon": "modules/enhancedcombathud-kroemel-fork/icons/journey.svg",
         "label": "Disengage",
         "origin": "Item.wyQkeuZkttllAFB1",
         "transfer": false,
@@ -103,7 +103,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.hide.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.hide.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/cloak-dagger.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/cloak-dagger.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.hide.desc"),
@@ -175,7 +175,7 @@ Hooks.once("ready",()=>{
           "startTime": null,
           "turns": 10
         },
-        "icon": "modules/enhancedcombathud/icons/cloak-dagger.svg",
+        "icon": "modules/enhancedcombathud-kroemel-fork/icons/cloak-dagger.svg",
         "label": "Hide",
         "transfer": false,
         "flags": {
@@ -208,7 +208,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.shove.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.shove.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/sparkling-sabre.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/sparkling-sabre.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.shove.desc"),
@@ -284,7 +284,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.dash.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.dash.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/walking-boot.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/walking-boot.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.dash.desc"),
@@ -352,7 +352,7 @@ Hooks.once("ready",()=>{
           "startTime": null,
           "rounds": 1
         },
-        "icon": "modules/enhancedcombathud/icons/walking-boot.svg",
+        "icon": "modules/enhancedcombathud-kroemel-fork/icons/walking-boot.svg",
         "label": "Dash",
         "transfer": false,
         "flags": {
@@ -381,7 +381,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.dodge.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.dodge.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/armor-upgrade.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/armor-upgrade.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.dodge.desc"),
@@ -449,7 +449,7 @@ Hooks.once("ready",()=>{
           "startTime": null,
           "turns": 1
         },
-        "icon": "modules/enhancedcombathud/icons/armor-upgrade.svg",
+        "icon": "modules/enhancedcombathud-kroemel-fork/icons/armor-upgrade.svg",
         "label": "Dodge",
         "origin": "Item.pakEYcgLYxtKGv7J",
         "transfer": false,
@@ -480,7 +480,7 @@ Hooks.once("ready",()=>{
   ECHItems[game.i18n.localize("enhancedcombathud.items.ready.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.ready.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/clockwork.svg",
+    "img": "modules/enhancedcombathud-kroemel-fork/icons/clockwork.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.ready.desc"),
@@ -548,7 +548,7 @@ Hooks.once("ready",()=>{
           "startTime": null,
           "turns": 1
         },
-        "icon": "modules/enhancedcombathud/icons/clockwork.svg",
+        "icon": "modules/enhancedcombathud-kroemel-fork/icons/clockwork.svg",
         "label": "Ready",
         "transfer": false,
         "flags": {

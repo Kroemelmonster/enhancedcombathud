@@ -14,7 +14,7 @@ class echThemeOptions extends FormApplication {
       ...super.defaultOptions,
       title: "Theme Options",
       id: "echThemeOptions",
-      template: "modules/enhancedcombathud/templates/theme-options.hbs",
+      template: "modules/enhancedcombathud-kroemel-fork/templates/theme-options.hbs",
       resizable: true,
       width: 660,
       height: $(window).height(),
@@ -53,7 +53,7 @@ class echThemeOptions extends FormApplication {
                 );
                 FilePicker.upload(
                   "data",
-                  "./modules/enhancedcombathud/scripts/themes/",
+                  "./modules/enhancedcombathud-kroemel-fork/scripts/themes/",
                   theme
                 ).then((response) => {
                   echThemeOptions.defaultOptions.buildDropdown(themeName);
@@ -120,7 +120,7 @@ class echThemeOptions extends FormApplication {
 
         FilePicker.browse(
           "user",
-          `./modules/enhancedcombathud/scripts/themes`,
+          `./modules/enhancedcombathud-kroemel-fork/scripts/themes`,
           { extensions: [".json"] }
         )
           .then((response) => {
@@ -190,7 +190,7 @@ class echThemeOptions extends FormApplication {
       game.settings.get("enhancedcombathud", "echThemeData").theme
     );
 
-    /*FilePicker.browse('user', `./modules/enhancedcombathud/scripts/themes`, { extensions: ['.json'] }).then(response => {
+    /*FilePicker.browse('user', `./modules/enhancedcombathud-kroemel-fork/scripts/themes`, { extensions: ['.json'] }).then(response => {
       let files = response.files;
       if (files.length > 0) {
         return files;
@@ -230,7 +230,7 @@ class echThemeOptions extends FormApplication {
 
         if (selectedTheme != "custom") {
           fetch(
-            `./modules/enhancedcombathud/scripts/themes/${selectedTheme}.json`
+            `./modules/enhancedcombathud-kroemel-fork/scripts/themes/${selectedTheme}.json`
           )
             .then((response) => response.json())
             .then((colors) => {

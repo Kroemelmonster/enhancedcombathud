@@ -1,7 +1,7 @@
 {
   "name": "Disengage",
   "type": "consumable",
-  "img": "modules/enhancedcombathud/icons/journey.svg",
+  "img": "modules/enhancedcombathud-kroemel-fork/icons/journey.svg",
   "data": {
     "description": {
       "value": "<p>If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.</p>",
@@ -74,7 +74,7 @@
         "startTime": null,
         "turns": 1
       },
-      "icon": "modules/enhancedcombathud/icons/journey.svg",
+      "icon": "modules/enhancedcombathud-kroemel-fork/icons/journey.svg",
       "label": "Disengage",
       "origin": "Item.wyQkeuZkttllAFB1",
       "transfer": false,
