@@ -148,6 +148,14 @@ class CombatHud {
       },
       ac: this.actor.data.data.attributes.ac.value,
       classes: this.getClassesAsString(),
+      specialItems: [
+        {name: ECHItems.Special.name, img: ECHItems.Special.img},
+        {name: ECHItems.Dash.name, img: ECHItems.Dash.img},
+        {name: ECHItems.Dodge.name, img: ECHItems.Dodge.img},
+        {name: ECHItems.Hide.name, img: ECHItems.Hide.img},
+        {name: ECHItems.Disengage.name, img: ECHItems.Disengage.img},
+        {name: ECHItems.Ready.name, img: ECHItems.Ready.img}
+      ],
       specialItemsNames: {
         disengage: game.i18n.localize("enhancedcombathud.items.disengage.name"),
         hide: game.i18n.localize("enhancedcombathud.items.hide.name"),

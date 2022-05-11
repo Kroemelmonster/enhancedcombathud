@@ -200,14 +200,15 @@ Hooks.once("ready",()=>{
         "set3s": false
       },
       "midi-qol": {
-        "onUseMacroName": ""
+        "onUseMacroName": "Kroemel : Execute Hide Order",
+        "forceCEOff": true
       }
     }
   }
   ECHItems[game.i18n.localize("enhancedcombathud.items.shove.name")] = {
     "name": game.i18n.localize("enhancedcombathud.items.shove.name"),
     "type": "feat",
-    "img": "modules/enhancedcombathud/icons/shield-bash.svg",
+    "img": "modules/enhancedcombathud/icons/sparkling-sabre.svg",
     "data": {
       "description": {
         "value": game.i18n.localize("enhancedcombathud.items.shove.desc"),
@@ -275,7 +276,8 @@ Hooks.once("ready",()=>{
         "set3p": false
       },
       "midi-qol": {
-        "onUseMacroName": ""
+        "onUseMacroName": "Toggle Convenient Effect - Special",
+        "forceCEOff": true
       }
     }
   }
@@ -470,7 +472,8 @@ Hooks.once("ready",()=>{
         "set3p": false
       },
       "midi-qol": {
-        "onUseMacroName": ""
+        "onUseMacroName": "Toggle Convenient Effect - Dodge",
+        "forceCEOff": true
       }
     }
   }
